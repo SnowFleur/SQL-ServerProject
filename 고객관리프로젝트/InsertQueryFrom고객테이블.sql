@@ -1,0 +1,7 @@
+INSERT INTO dbo.고객테이블 VALUES('김범수',1979,'경남',010-1111-1111);
+INSERT INTO dbo.고객테이블 VALUES('윤종신',1970,'서울',010-1111-1111);
+INSERT INTO dbo.고객테이블 VALUES('조용필',1950,'전남',010-7777-7777);
+INSERT INTO dbo.고객테이블 VALUES('성시경',1979,'서울',010-6666-6666);
+go
+SELECT *
+FROM dbo.고객테이블 WITH(NOLOCK)
